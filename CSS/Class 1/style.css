@@ -1,0 +1,26 @@
+* {
+    background-color:rgb(50, 13, 13);
+    color:rgb(232, 231, 234);
+  }
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  body{
+    height: 100vh;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    background-color: rgb(11, 9, 7);
+  }
+  img {
+    border-radius: 50%;
+    border: 5px solid rgb(16, 9, 9);
+    display: block;
+    margin: 0 auto;
+ }
+ button{
+    background-color: rgb(243, 243, 16);
+    color: blue;
+    font-size: 20px;
+    text-decoration: ;
+ } 
