@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body {
+    background-color: lawngreen;
+    height: 100vh;
+
+}
+.button_container {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    position: absolute;
+    display: block;
+    top: 200px;
+    left: 500px;
+    padding: 10px 30px;
+    margin: auto;
+    font-size: 20px;
+    background-color: navy;
+    color: saddlebrown;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 5px solid gold;
+    transition: 1s ease-in-out;
+    
+}
+button:hover{
+    background-color: rgb(140, 19, 19);
+    transform: scale(1.5);
+    transform: rotate(180deg);
+    cursor: pointer;
+}
